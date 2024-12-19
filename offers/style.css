@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+            /* offers start */
+ body {
+    background-color:#fcedda;
+  padding: 50px 0 ;
+}
+  h1 {
+    color: black;
+    font-size: 60px;
+    text-transform: uppercase; 
+    justify-content: center;
+    display: flex;
+}
+
+  nav {
+    background-color:#d87145;
+}
+  nav:hover { 
+    background-color: darkorange;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ .card-container { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+ .card { 
+    width: 350px;
+    background-color: #fcedda;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: all 0.4s ease;
+}
+  .card:hover { 
+    transform: translateY(-40px);
+}
+
+  .card img { 
+    width: 100%;
+    height: auto;
+}
+ .card-content { 
+    padding: 20px;
+
+}
+.card-content h2 { 
+    color:sienna;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+ .card-content h3 {
+     color: saddlebrown;
+     font-size: 20px;
+}
+ .card-content p { 
+    color: #000;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.card-content li { 
+    color: saddlebrown;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.card-content .btn { 
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #d87145;
+    text-decoration: none;
+    border-radius: 5px;
+    color: floralwhite;
+    transition: all 0.4s ease;
+}
+ .card-content .btn:hover { 
+    border-color: #d87145;
+    color: floralwhite;
+    background: darkorange;
+}
+
+        /* offers end */
+
+
+
+
+
+
+
+
+ 
+
